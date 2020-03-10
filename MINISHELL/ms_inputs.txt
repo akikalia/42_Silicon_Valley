@@ -1,0 +1,14 @@
+ls -lR
+env
+setenv alex .
+ls $alex 
+sleep 2
+cd libft
+pwd 
+cd -
+unsetenv PWD
+echo $PWD
+pwd
+unsetenv PATH
+ls
+exit
